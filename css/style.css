@@ -29,6 +29,12 @@ p{
   margin-bottom: 0.75rem;
   line-height: 1.1;
 }
+.m-heading{
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
 .lead{
   font-size: 1.3rem;
   margin-bottom: 2rem;
@@ -59,7 +65,9 @@ p{
   padding: 0 2rem;
   overflow: hidden;
 }
-
+.text-center{
+  text-align: center;
+}
 
 
 
