@@ -23,6 +23,29 @@ p{
 .text-primary{
   color: #93cb52;
 }
+.l-heading{
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+.lead{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+
+}
+
+.btn{
+  display:inline-block;
+  color: #fff;
+  background: #93cb52;
+  padding: 0.5rem 2rem;
+  
+}
+
+
+
+
+
 
 /* navbar*/
 #navbar{
@@ -64,6 +87,7 @@ padding:1rem;
   color:#fff;
 
 }
+
 
 
 #showcase .showcase-content{
