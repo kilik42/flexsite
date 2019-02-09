@@ -9,6 +9,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  line-height:1.4;
 }
 
 a{
@@ -39,7 +40,18 @@ p{
   color: #fff;
   background: #93cb52;
   padding: 0.5rem 2rem;
-  
+  border:none;
+  border-radius: 5px;
+}
+.btn:hover{
+  background: #7ab436;
+
+}
+
+.btn-dark{
+  background: #333;
+  -webkit-column-rule: #fff;
+  column-rule: #fff;
 }
 
 
