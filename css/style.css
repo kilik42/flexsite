@@ -196,3 +196,15 @@ padding:1rem;
   background-position: center;
 
 }
+/* clients */
+#clients .items {
+  display: flex;
+}
+
+
+#clients .items img{
+  flex:1;
+  display: block;
+  margin: auto;
+  width: 60%;
+}
