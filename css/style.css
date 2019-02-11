@@ -99,7 +99,10 @@ p{
   padding: 0.5rem 0;
   border-bottom: #444 dotted 1px;
 }
-
+.bg-primary{
+  background: #93cb52;
+  color:#fff;
+}
 
 /* navbar*/
 #navbar{
@@ -196,7 +199,7 @@ padding:1rem;
   background-position: center;
 
 }
-/* clients */
+/* section clients */
 #clients .items {
   display: flex;
 }
@@ -207,4 +210,30 @@ padding:1rem;
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* section:contacts */
+
+
+#contact {
+  display:flex;
+}
+
+
+#contact .map, #contact .contact-form{
+  flex: 1;
+}
+
+#contact .contact-form .form-group{
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+  width: 100%;
+  padding: 0.5rem;
 }
